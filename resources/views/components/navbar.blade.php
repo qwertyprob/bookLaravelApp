@@ -8,6 +8,10 @@
       <i class="fas fa-book"></i>
       <span class="nav-text">Книги</span>
     </a>
+    <a href="/authors" class="nav-item">
+      <i class="fas fa-feather-alt"></i>
+      <span class="nav-text">Авторы</span>
+    </a>
     <a href="/about" class="nav-item">
       <i class="fas fa-info"></i>
       <span class="nav-text">О нас</span>

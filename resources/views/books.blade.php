@@ -1,6 +1,6 @@
 <x-layout title="Книги">
 <x-navbar />
-<x-search />
+<x-search search="Любимую книгу"/>
 
       <div class="row my-4">
       <div class="col-12">

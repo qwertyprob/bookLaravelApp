@@ -13,6 +13,8 @@ Route::get('/books', function () {
 Route::get('/about', function () {
     return view('about');
 });
-
+Route::get('/authors', function () {
+    return view('authors');
+});
 
 
