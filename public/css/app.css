@@ -1,0 +1,25 @@
+@import url('fonts.css');
+
+
+:root{
+      --blue-color-:rgb(163, 202, 236);
+      --orange-color:rgb(199, 93, 18);
+      --pink-color:#667799;
+}
+
+h1 {
+    font-family: 'Caveat', cursive !important;
+    color:var(--pink-color) !important;
+}
+
+body{
+      margin: 0;
+      padding: 0;
+}
+
+
+
+
+
+
+

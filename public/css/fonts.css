@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url('/fonts/Caveat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+      font-family:'Seymour';
+      src: url('/fonts/Seymour.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face{
+      font-family:'Ubuntu';
+      src: url('/fonts/Ubuntu.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}

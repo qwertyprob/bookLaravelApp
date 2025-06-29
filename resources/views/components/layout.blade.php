@@ -4,46 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">   
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">    
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Awesome fonts -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
     <title>{{$title}}</title>
 </head>
 <body>
-    <div class="container my-5">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-1 rounded-1 ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Navbar</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <!-- Левое меню -->
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Books</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
-        </li>
-      </ul>
-
-      <!-- Правое меню -->
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sign in</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-    {{ $slot }}
+    <div class="container-fluid ps-0 pe-0 ">
+      <div class="row">
+        
+      
+        {{ $slot }}
+      </div>
+      
     </div>
     
 

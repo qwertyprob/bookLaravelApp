@@ -8,4 +8,22 @@
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --font--caveat:'Caveat-Medium',sans-serif;
 }
+
+@font-face {
+    font-family: 'Caveat-Medium';
+    src: url('/public/fonts/Caveat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Caveat-Medium',  !important;
+}
+.font-caveat {
+    font-family: 'Caveat-Medium',  !important;
+}
+
+

@@ -1,0 +1,169 @@
+@import url('fonts.css');
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; /* чтобы занять всю ширину окна */
+  width: 100%;
+  box-sizing: border-box; 
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  border-radius: 0;
+  transition: box-shadow 0.3s ease;
+  padding: 0.5rem 1rem;
+      z-index: 1050; /* чтобы navbar был сверху */
+      
+}
+
+      .navbar-custom:hover{
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      }
+
+      
+
+
+.nav-group-left,
+.nav-group-right {
+      display: flex;
+      gap: 10px;
+}
+
+.nav-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding-left: 0.5em;
+      font-family: 'Caveat';
+      font-size: 2em;
+      text-decoration: none;
+      color:grey;
+
+}
+      .nav-item .fas {
+            margin-bottom: 0.1em;
+            font-size: 1em;
+      }
+
+      .nav-item:hover{
+            color: var(--orange-color);
+
+      }
+
+@media (max-width: 766px) {
+      .nav-text{
+            display: none;
+      }
+      .nav-item {
+            padding-left: 0.5em;
+      }
+      .icon{
+            width: 40px;
+      }
+      .search{
+            width: 50%;
+      }
+      .navbar-custom{
+            position: absolute !important;
+      }
+      
+
+      
+}
+@media (max-width: 991px) {
+      input.form-control{
+            width: 50% !important;
+      }
+}
+
+
+
+/* Отключаем клик у Bootstrap */
+.dropdown-toggle::after {
+  display: none !important; /* убрать стрелочку, по желанию */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+
+  
+}
+.dropdown-menu{
+      border: none!important;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      position: fixed !important;
+      z-index: 1100000000000 !important;
+      top: 1000;      
+}
+
+.dropdown-item{
+      color:grey !important;
+      font-family:'Caveat' ;
+      font-size: 2em;
+      background: none !important;
+
+}
+.dropdown-item:hover{
+      color:var(--orange-color) !important;
+      background: none !important;
+
+}
+
+input.form-control {
+      border: none !important;
+      box-shadow: none !important;
+      outline: none !important;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+}
+
+input.form-control:hover,
+input.form-control:focus,
+input.form-control:focus-visible,
+input.form-control:active {
+      border: none !important;
+      box-shadow: none !important;
+      outline: none !important;
+}
+
+input.form-control:focus-within {
+      border: none !important;
+      box-shadow: none !important;
+      outline: none !important;
+}
+
+
+
+.btn.btn-secondary{
+      color:lightgrey;
+      border-top-left-radius: 0 !important;
+      border-bottom-left-radius: 0 !important;
+      border:2px solid #6c757d !important;
+      font-family:'Caveat' ;
+      font-size:1.2em;
+}
+
+.btn.btn-secondary:hover{
+      color:white;
+}
+
+.custom{
+  background-color: var(--blue-color) !important;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+
+.content-wrapper {
+  padding-top: 3em; /* под высоту navbar-custom — подкорректируй по факту */
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
