@@ -15,15 +15,34 @@
 
       </div>
       <div class="col-12 col-md-4 d-flex flex-column p-4 py-0">
-            <h1>Ссылки:</h1>
-            <a href="https://github.com/qwertyprob" ><span>Github</span></a>
-            <a href="https://www.linkedin.com/in/arsenii-%C8%99ubenok-95b5342a2/" ><span>LinkedIn</span></a>
-            <a href="https://t.me/gwertysprob"><span>Telegram</span></a>
-            <hr>
-            <h1 class="py-2">E-mail:</h1>
-            <a href=""><span>eqspertars@gmail.com</span> </a>
-            
-      </div>
+  <h1>Ссылки:</h1>
+  
+  <a href="https://github.com/qwertyprob">
+    <i class="fab fa-github me-2" style="color: var(--pink-color);"></i><span>Github</span>
+  </a>
+  
+      <a href="https://www.linkedin.com/in/arsenii-%C8%99ubenok-95b5342a2/">
+        <i class="fab fa-linkedin me-2" style="color: var(--pink-color);"></i><span>LinkedIn</span>
+      </a>
+      
+      <a href="https://t.me/gwertysprob">
+        <i class="fab fa-telegram me-2" style="color: var(--pink-color);"></i><span>Telegram</span>
+      </a>
+
+      <hr>
+
+      <h1 class="py-2">E-mail:</h1>
+      <a href="mailto:eqspertars@gmail.com">
+        <i class="fas fa-envelope me-2" style="color: var(--pink-color);"></i><span>eqspertars@gmail.com</span>
+      </a>
+
+      <hr>
+
+      {{-- <h1 class="py-2">Resume:</h1>
+      <a href="/"><span>СV</span></a>
+      <hr> --}}
+    </div>
+
       <div class="col-md-4 p-4 py-0">
             <h1>
                   О портале:
