@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">   
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}"> 
-    <link rel="stylesheet" href="{{ asset('css/footer.css') }}">   
+    <link rel="stylesheet" href="{{ asset('css/footer.css') }}"> 
+    <link rel="icon" href="/icon.png" sizes="180x180" type="image/png" />  
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
