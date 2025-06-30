@@ -74,7 +74,9 @@
       
 
 
-
+.dropdown{
+      position: relative !important;
+}
 
 /* Отключаем клик у Bootstrap */
 .dropdown-toggle::after {
@@ -87,13 +89,16 @@
 
   
 }
-.dropdown-menu{
-      border: none!important;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.dropdown-menu {
       position: absolute !important;
-      z-index: 1100000000000 !important;
-      top: 1000;      
+      top: 100%;
+      right: 0;
+      left: auto;
+      border: none !important;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 1050 !important; /* этого достаточно */
 }
+
 
 .dropdown-item{
       color:grey !important;

@@ -1,5 +1,5 @@
 
-<footer class="footer py-3 h-100" style="background-color: var(--blue-color-); width: 100%;">  
+<footer class="footer py-3" style="background-color: var(--blue-color-); width: 100%;">  
   <div class="container" style="background-color: var(--blue-color-); width: 100%;">
     <div class="row d-flex justify-content-between align-items-start">
       <div class="col-12 col-md-4 p-1 py-0">
@@ -14,7 +14,7 @@
 </p>
 
       </div>
-      <div class="col-12 col-md-4 d-flex flex-column p-4 py-0">
+      <div class="col-12 col-md-4 d-flex flex-column p-4 py-0 ">
   <h1>Ссылки:</h1>
   
   <a href="https://github.com/qwertyprob">
@@ -43,11 +43,11 @@
       <hr> --}}
     </div>
 
-      <div class="col-md-4 p-4 py-0">
+      <div class="col-md-4 p-4 py-0 px-0">
             <h1>
                   О портале:
             </h1>
-            <span class="text">
+            <p style="text-align: justify!important;">
   Этот сайт — мой <strong>учебный проект</strong>, созданный на <strong>PHP (v8.4)</strong> с использованием фреймворка <strong>Laravel 12.x</strong>.  
   Я разработал его для <strong>практики и удовольствия</strong> — ведь люблю книги и увлекаюсь веб-разработкой.
 
@@ -55,8 +55,8 @@
   Сайт не коммерческий — он создавался как <strong>пет-проект</strong>, чтобы изучать <strong>Laravel</strong> на реальном примере и развивать навыки в <strong>backend- и frontend-разработке</strong>.
 
   Проект живой: я <strong>постоянно дорабатываю</strong> его, экспериментирую с новыми функциями и учусь писать чище и лучше.  
-  <strong>Спасибо, что зашли!</strong>
-</span>
+  <strong><br>Спасибо, что зашли!</strong>
+</p>
 
       </div>
     </div>
@@ -64,7 +64,6 @@
     <div class="col-12 d-flex justify-content-around py-0 gap-2">
   <medium>© {{now()->format('Y')}}</medium>
   <medium>Арсений - qwertyprob.</medium>
-</div>
-
+  </div>
   </div>
 </footer>

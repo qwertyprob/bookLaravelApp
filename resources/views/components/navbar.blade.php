@@ -29,7 +29,7 @@
           <i class="fas fa-user"></i>
           <span class="nav-text">Гость</span>
         </a>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+        <ul class="dropdown-menu"style="min-width: 200px;" aria-labelledby="userDropdown">
           <li><a class="dropdown-item" href="#">Войти</a></li>
           <li><a class="dropdown-item" href="#">Регистрация</a></li>
         </ul>

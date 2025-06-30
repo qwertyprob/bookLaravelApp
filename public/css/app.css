@@ -7,7 +7,7 @@
       --pink-color:#667799;
 }
 
-h1 {
+h1,h2,h3,h4 {
     font-family: 'Caveat', cursive !important;
     color:var(--pink-color) !important;
 }
