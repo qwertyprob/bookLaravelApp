@@ -1,34 +1,30 @@
-@import url('fonts.css');
+@import url("fonts.css");
 
-
-:root{
-      --blue-color-:rgb(163, 202, 236);
-      --orange-color:rgb(199, 93, 18);
-      --pink-color:#667799;
+:root {
+    --blue-color-: rgb(163, 202, 236);
+    --orange-color: rgb(199, 93, 18);
+    --pink-color: #667799;
 }
 
-h1,h2,h3,h4 {
-    font-family: 'Caveat', cursive !important;
-    color:var(--pink-color) !important;
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Caveat", cursive !important;
+    color: var(--pink-color) !important;
 }
 
-body{
-      margin: 0;
-      padding: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.container-fluid{
-      background-color:none !important;
+.container-fluid {
+    background-color: none !important;
 }
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-
-
-
-
-
-
-

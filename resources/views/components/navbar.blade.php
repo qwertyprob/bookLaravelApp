@@ -39,14 +39,4 @@
 </div>
 </div>
 
-<script>
-  //dropdown по скроллу закрывается
-
-  window.addEventListener('scroll', function () {
-    const dropdown = bootstrap.Dropdown.getInstance(document.querySelector('#userDropdown'));
-    if (dropdown) {
-      dropdown.hide();
-    }
-  });
-</script>
-
+<script src="{{ asset('js/dropdown-scroll-blocker.js') }}"></script>

@@ -1,51 +1,49 @@
 .footer {
-  background-color: var(--blue-color-) !important; 
-  color: var(--pink-color);
+    background-color: var(--blue-color-) !important;
+    color: var(--pink-color);
 }
 
-.footer span,h2,h1 {
-  font-family: 'Caveat';
-  font-size: 1.5em;
-
+.footer span,
+h2,
+h1 {
+    font-family: "Caveat";
+    font-size: 1.5em;
 }
-a{
-  text-decoration: none !important;
-   
+a {
+    text-decoration: none !important;
 }
-a:hover{
-  color:var(--orange-color) !important;
+a:hover {
+    color: var(--orange-color) !important;
 }
 .bio-wrapper {
-  overflow: hidden; 
+    overflow: hidden;
 }
 .bio-photo {
-  float: left;
-  width: 150px;
-  margin: 0px 10px 10px 0px;   
-  shape-outside: circle(50%);         
-  height: 150px;          
-  object-fit: cover;      
-  border-radius: 50%;      
+    float: left;
+    width: 150px;
+    margin: 0px 10px 10px 0px;
+    shape-outside: circle(50%);
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
-p{
-  text-align: justify!important;
-  font-family: 'Caveat';
-  font-size: 1.5em;
-  
+p {
+    text-align: justify !important;
+    font-family: "Caveat";
+    font-size: 1.5em;
 }
-.text{
-  text-align: justify!important;
-  font-family: 'Caveat';
-  font-size: 1.5em;
+.text {
+    text-align: justify !important;
+    font-family: "Caveat";
+    font-size: 1.5em;
 }
-hr{
-  border: 2px solid var(--pink-color) ;
-  height: 3px;
-  background-color: var(--pink-color);
+hr {
+    border: 2px solid var(--pink-color);
+    height: 3px;
+    background-color: var(--pink-color);
 }
 
-strong{
-    color:var(--orange-color) !important;
-
+strong {
+    color: var(--orange-color) !important;
 }
