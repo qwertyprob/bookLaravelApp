@@ -1,6 +1,6 @@
 
-<div class="navbar-fixed-wrapper" >
-  <div class="container" >
+
+  <div class="container custom-container fixed-top"  style="background-color: white !important;">
   <div class="navbar-custom p-2">
     <!-- Левая группа ссылок -->
     <div class="nav-group-left ms-0 ms-sm-4">
@@ -38,4 +38,15 @@
   </div>
 </div>
 </div>
+
+<script>
+  //dropdown по скроллу закрывается
+
+  window.addEventListener('scroll', function () {
+    const dropdown = bootstrap.Dropdown.getInstance(document.querySelector('#userDropdown'));
+    if (dropdown) {
+      dropdown.hide();
+    }
+  });
+</script>
 

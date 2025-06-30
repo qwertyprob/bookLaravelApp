@@ -61,9 +61,9 @@
       </div>
     </div>
     <hr>
-    <div class="col-12 d-flex justify-content-center py-0 gap-2">
-  <small>© {{now()->format('Y')}}</small>
-  <small>qwertyprob.</small>
+    <div class="col-12 d-flex justify-content-around py-0 gap-2">
+  <medium>© {{now()->format('Y')}}</medium>
+  <medium>Арсений - qwertyprob.</medium>
 </div>
 
   </div>

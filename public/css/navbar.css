@@ -4,31 +4,28 @@
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
-.navbar-fixed-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1050;
-  background-color: white; /* обязательно, чтобы не было прозрачности */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
 
 /* navbar внутри контейнера */
 .navbar-custom {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   align-items: center;
   flex-wrap: wrap;
   padding: 0.5rem 1rem;
   box-sizing: border-box;
+  
+  
+}
+.custom-container {
+  border-radius: 10px !important;
+  background-color: white !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
+  
+
 }
 
 
-      .navbar-custom:hover{
-            box-shadow: 0 2px 19px -2px var(--blue-color-);
-           
-      }
+      
 
       
 
@@ -93,7 +90,7 @@
 .dropdown-menu{
       border: none!important;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      position: fixed !important;
+      position: absolute !important;
       z-index: 1100000000000 !important;
       top: 1000;      
 }
@@ -198,10 +195,7 @@ input.form-control:focus-within {
             margin-left: 4.3em !important;
       }
 
-      .navbar-fixed-wrapper {
-            position: absolute !important;
-
-      }
+      
       .btn.btn-secondary{
             width: 35% !important;
       }
@@ -214,8 +208,35 @@ input.form-control:focus-within {
                   background-color:var(--orange-color) !important;
             }
       
+      .custom-container{
+              background-color: white !important;
+
+      }
+      .navbar-custom{
+
+            position:  absolute !important;
+            right: 0;
+            left: 0;
+            top: 0;
+            background-color: white !important;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            
+      }
 
       
+}
+@media (max-width: 576px) {
+  .custom-container {
+    max-width: 100% !important;
+    border-radius: 0 !important; 
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .navbar-custom{
+            position:  absolute !important;
+      }
 }
 @media (max-width: 991px) {
       input.form-control{
@@ -225,3 +246,5 @@ input.form-control:focus-within {
             width: 40% !important;
       }
 }
+
+

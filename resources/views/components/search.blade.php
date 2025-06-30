@@ -4,7 +4,7 @@
       <div class="row px-0">
         <div class="col-12 py-4 px-0">
           <h1 class="display-2 text-white">
-            Попробуй найти <strong>{{Str::lower($search)}}!</strong>
+            Попробуй найти <strong>{{Str::lower($search)}} !</strong>
           </h1>
           <div class="search py-2 d-flex col-12 col-md-6">
             <input type="text" class="form-control" aria-describedby="inputGroup-sizing-sm" />
