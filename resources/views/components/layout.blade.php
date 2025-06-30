@@ -7,7 +7,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">   
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">    
+    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}"> 
+    <link rel="stylesheet" href="{{ asset('css/footer.css') }}">   
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -20,16 +21,11 @@
 
     <title>{{$title}}</title>
 </head>
-<body>
-    <div class="container-fluid ps-0 pe-0 ">
-      <div class="row">
-        
-      
-        {{ $slot }}
-      </div>
-      
-    </div>
-    
 
+<body>
+     {{ $slot }}
+
+<x-footer/>
 </body>
+
 </html>

@@ -1,30 +1,33 @@
 @import url('fonts.css');
+
 .row {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
-.navbar-custom {
+.navbar-fixed-wrapper {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0; /* чтобы занять всю ширину окна */
-  width: 100%;
-  box-sizing: border-box; 
-  overflow-x: hidden;
+  right: 0;
+  z-index: 1050;
+  background-color: white; /* обязательно, чтобы не было прозрачности */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* navbar внутри контейнера */
+.navbar-custom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background-color: lightgray;
-  border-radius: 0;
-  transition: box-shadow 0.3s ease;
   padding: 0.5rem 1rem;
-      z-index: 1050; /* чтобы navbar был сверху */
-      
+  box-sizing: border-box;
 }
 
+
       .navbar-custom:hover{
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            box-shadow: 0 2px 19px -2px var(--blue-color-);
+           
       }
 
       
@@ -55,6 +58,7 @@
       .nav-item:hover{
             color: var(--orange-color);
 
+
       }
 
 @media (max-width: 766px) {
@@ -73,13 +77,20 @@
       .navbar-custom{
             position: absolute !important;
       }
+      .nav-group-right{
+            padding-left: 4em !important;
+      }
+      .navbar-fixed-wrapper {
+            position: absolute !important;
+
+      }
       
 
       
 }
 @media (max-width: 991px) {
       input.form-control{
-            width: 50% !important;
+            width: 60% !important;
       }
 }
 
@@ -143,12 +154,16 @@ input.form-control:focus-within {
 
 
 .btn.btn-secondary{
-      color:lightgrey;
+      color:white;
+      background-color:lightgrey;
       border-top-left-radius: 0 !important;
       border-bottom-left-radius: 0 !important;
-      border:2px solid #6c757d !important;
+      border:2px solid lightgrey !important;
       font-family:'Caveat' ;
-      font-size:1.2em;
+      font-size:1.3em;
+      letter-spacing: 4px;
+      width: 22%;
+      height: auto;
 }
 
 .btn.btn-secondary:hover{
@@ -163,7 +178,6 @@ input.form-control:focus-within {
 
 
 .content-wrapper {
-  padding-top: 3em; /* под высоту navbar-custom — подкорректируй по факту */
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-top: 3em; /* увеличь, если navbar стал выше */
+  margin: 0;
 }
